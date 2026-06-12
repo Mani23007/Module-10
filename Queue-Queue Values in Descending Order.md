@@ -22,7 +22,25 @@ To write a Python program to:
 7. Print the updated list.
 
 ## 🧪 Program: 
+```python
+q = []
+
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    q.append(int(input()))
+
+q.pop(0)
+q.pop(0)
+
+q.sort(reverse=True)
+
+print(q)
+```
 
 ### Output:
+<img width="486" height="299" alt="image" src="https://github.com/user-attachments/assets/a4c7ad19-60c0-4a81-aa5c-6cbeea55d234" />
+
 
 ## Result:
+Thus,the program is executed successfully.
